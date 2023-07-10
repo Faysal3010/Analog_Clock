@@ -14,7 +14,7 @@ function show_clock(){
     m.style.transform = `rotate(${6 * minutes}deg)`;
     s.style.transform = `rotate(${6 * seconds}deg)`;
 
-    let sound = new Audio('Clock-Ticking-C-www (mp3cut.net).mp');
+    let sound = new Audio('Clock-Ticking-C-www (mp3cut.net).mp3');
     sound.play();
 }
 
